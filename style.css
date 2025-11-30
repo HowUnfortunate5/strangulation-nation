@@ -1,0 +1,10 @@
+
+.header,
+.footer {
+    background-color: #1F2937;
+}
+
+img {
+    border: solid white 5px;
+    margin: 20px
+}
