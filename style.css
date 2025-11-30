@@ -1,10 +1,49 @@
 
-.header,
-.footer {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: "Roboto", sans-serif; ;
+}
+
+.header {
     background-color: #1F2937;
+    
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 img {
     border: solid white 5px;
     margin: 20px
+}
+
+.description {
+    background-color: #1F2937
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(240, 82, 34);
+    font-family: sans-serif;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    list-style: none;
+    
+}
+
+a {
+    text-decoration:underline;
+    color: lightgray;
+    font-size: 20px;
+    font-weight: 500;
 }
