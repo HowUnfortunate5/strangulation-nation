@@ -73,6 +73,17 @@ a {
     background-color: #3882F6;
     padding: 10px;
     margin: 20px;
+    flex-shrink: 0;
+    border: solid #E5E7EB 1px;
+
+}
+
+.sign-up:hover {
+    background-color: #3882F6;
+}
+
+.sign-up:active {
+    background-color: #1F2937;
 }
 
 .bottom-header {
@@ -120,6 +131,7 @@ h3 {
     flex-direction: column;
     flex: 1;
     padding: 30px;
+    margin-top:50px;
     
 
 }
@@ -139,3 +151,25 @@ h3 {
     margin-top: -20px;
 }
 
+.bottom-page {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.action {
+    font-weight: 800;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+    color: #E5E7EB;
+}
