@@ -115,14 +115,17 @@ h3 {
     align-items: center;
     gap: 40px;
     flex-wrap: wrap;
+    max-width: 100%;
 }
 
 .main-image {
     display: flex;
     padding: 10px;
-    height:250px;
     width: auto;
     border:#3882F6 solid 3px;
+    max-width:25%;
+    height: auto;
+    
 
 }
 
