@@ -105,6 +105,10 @@ h3 {
 
 }
 
+.bottom-header-image {
+    padding: 40px;
+}
+
 .main-images{
     display: flex;
     justify-content: space-around;
