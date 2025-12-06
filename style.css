@@ -17,6 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap:wrap ;
 }
 
 .logo {
@@ -107,6 +108,7 @@ h3 {
 
 .bottom-header-image {
     padding: 40px;
+    flex-shrink: 1;
 }
 
 .main-images{
