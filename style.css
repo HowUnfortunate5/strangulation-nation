@@ -89,6 +89,8 @@ a {
 
 .bottom-header {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .main-content {
@@ -109,6 +111,8 @@ h3 {
 .bottom-header-image {
     padding: 40px;
     flex-shrink: 1;
+    max-width: 25%;
+    max-height: 25%;
 }
 
 .main-images{
